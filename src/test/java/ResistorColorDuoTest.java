@@ -21,7 +21,7 @@ public class ResistorColorDuoTest {
         assertEquals(expected, actual);
     }
 
-    @Ignore("Remove to run test")
+
     @Test
     public void testBlueAndGrey() {
         String[] input = { "blue", "grey" };
@@ -31,7 +31,6 @@ public class ResistorColorDuoTest {
         assertEquals(expected, actual);
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testYellowAndViolet() {
         String[] input = { "yellow", "violet" };
@@ -41,7 +40,6 @@ public class ResistorColorDuoTest {
         assertEquals(expected, actual);
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testOrangeAndOrange() {
         String[] input = { "orange", "orange" };
@@ -50,8 +48,7 @@ public class ResistorColorDuoTest {
 
         assertEquals(expected, actual);
     }
-
-    @Ignore("Remove to run test")
+    
     @Test
     public void testIgnoreAdditionalColors() {
         String[] input = { "green", "brown", "orange" };
